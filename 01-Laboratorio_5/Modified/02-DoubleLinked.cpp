@@ -127,7 +127,7 @@ void searchList(Node *started, int n){
     Node *current = new Node();
     current = started; //Señalar a la primer valor de la lista
 
-    while ((current != NULL) && (current->data <= n)){
+    while ((current != NULL)){
         if (current->data == n){
             result = true;
         }
